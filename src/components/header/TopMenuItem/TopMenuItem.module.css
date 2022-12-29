@@ -1,0 +1,29 @@
+.menuItem {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    color:#575b5f;
+    float:left;
+    margin-top: 0px;
+    margin-right: 13px;
+    padding: 20px 25px 20px 25px;
+    cursor: pointer;
+}
+
+.menuItem::after {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.downArrow {
+    border: solid black;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 2px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin-left: 8px;
+    margin-bottom: 4px;
+}

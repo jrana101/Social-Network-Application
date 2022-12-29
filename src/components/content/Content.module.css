@@ -1,0 +1,136 @@
+.content {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.lefColumn {
+    width: 20%;
+    float: left;
+}
+
+
+
+.contentMenu {
+    height: 60px;
+    border: 0.1px solid;
+    padding-left: 17em;
+    background: white;
+}
+
+.contentMenuItem {
+    display: inline-block;
+}
+
+.userNameRole {
+    width: 9em;
+    display: inline-block;
+    padding: 0.7em 0 0.7em 0;
+    text-align: right;
+    margin-right: 4em;
+}
+
+.userName {
+    color: #088dcd;
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.userRole {
+    color: #3a3a3a;
+    font-size: 10px;
+    display: block;
+}
+
+.contentMenuItem {
+    margin-right: 2em;
+    /* padding: 1em 0 1em 0; */
+    /* margin-bottom: 8em; */
+    position: relative;
+    top: -10px;
+    font-size: 13.5px;
+    font-weight: 500;
+    color: rgb(84, 84, 84);
+    cursor: pointer;
+}
+
+.contentMenuItem:hover:before {
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+}
+
+.contentContainer {
+    min-height: 500px;
+    width: 1115px;
+    margin-left: auto;
+    margin-right: auto;
+    border:1px solid;
+    padding-top: 30px;
+}
+
+.socialContainer {
+    width: 270px;
+    height: 204px;
+    border: 1px solid rgb(237, 233, 233);
+    background: white;
+    margin-bottom: 18px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.shortcutsContainer {
+    width: 270px;
+    height: auto;
+    border: 1px solid rgb(237, 233, 233);
+    background: white;
+    margin-bottom: 18px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.feed {
+    width: 60%;
+    float: left;
+}
+
+.rightColumn {
+    width: 268px;
+    float: right;
+}
+
+
+.rightColumn .favouritePageBlock .image {
+    background-image: url("./../../images/baner-widgetbg.jpg");
+    width: 100%;
+    height: 278px;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: cover;
+}
+
+.favouritePageBlock {
+    margin-bottom: 18px;
+}
+
+.friendsBlock {
+    width: 100%;
+    height: auto;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid rgb(237, 233, 233);
+}
+
+.friendList {
+    padding: 20px;
+}
+
+.changeFont {
+    font-family:FontAwesome;
+}

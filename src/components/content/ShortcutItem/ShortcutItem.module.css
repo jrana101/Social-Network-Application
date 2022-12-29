@@ -1,0 +1,20 @@
+.shortcutItemWapper {
+    margin-bottom: 20px;
+}
+
+.shortcutTitle {
+    color: inherit;
+    text-decoration: none;
+    padding-left: 15px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #797979;
+
+}
+
+.shortcutIcon {
+    font-family: themify;
+    font-style: normal;
+    color: #797979;
+    font-weight: 400;
+}

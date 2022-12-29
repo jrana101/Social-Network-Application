@@ -1,0 +1,25 @@
+.friendWrapper {
+    margin-bottom: 20px;
+}
+
+.friendAvatar {
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.friendWrapper div {
+    width: 72%;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+.friendName {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.friendEmail {
+    font-size: 11px;
+    font-style: italic;
+}
